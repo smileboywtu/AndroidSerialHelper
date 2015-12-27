@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/sendfieldrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/send_lb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"
+                android:text="@string/send" />
+
+            <EditText
+                android:id="@+id/send_tv"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="15"
+                android:inputType="textMultiLine" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/readfieldrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/receive_lb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"
+                android:text="@string/read" />
+
+            <EditText
+                android:id="@+id/receive_tv"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="15"
+                android:inputType="textMultiLine" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/sendcounterrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/sendcounter_lb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"
+                android:text="@string/sendbytes" />
+
+            <TextView
+                android:id="@+id/sendcounter_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/readcounterrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/readcounter_lb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"
+                android:text="@string/readbytes" />
+
+            <TextView
+                android:id="@+id/readcounter_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/send_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send" />
+
+            <Button
+                android:id="@+id/clear_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clear" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

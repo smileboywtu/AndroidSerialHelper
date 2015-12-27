@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Code Helper</string>
+    <string name="open_action">open</string>
+    <string name="baudrate_action">baudrate</string>
+    <string name="camera_action">camera</string>
+    <string name="status_action">Serial</string>
+    <string name="clear_action">Clear Window</string>
+    <string name="serial_action">General Serial</string>
+    <string name="fountain_action">Luby Code</string>
+    
+    <string name="send">send</string>
+    <string name="read">read</string>
+    <string name="clear">clear</string>
+    <string name="receive">receive</string>
+    <string name="sendbytes">send bytes</string>
+    <string name="readbytes">read bytes</string>
+    
+    <string name="countervalue">counter</string>
+    <string name="cvalue">c</string>
+    <string name="delta">delta</string>
+
+    <string name="status">status</string>
+    <string name="rates">rates</string>
+    <string name="databits">databits</string>
+    <string name="stopbits">stopbits</string>
+    <string name="parity">parity</string>
+    <string name="flowcontrol">flowcontrol</string>
+    <string name="default_status">No Device</string>
+    <string name="default_baudrate">115200</string>
+    <string name="default_databits">8</string>
+    <string name="default_stopbits">1</string>
+    <string name="default_parity">None</string>
+    <string name="default_flowcontrol">None</string>
+    
+    <string name="default_c">0.1</string>
+    <string name="default_delta">0.5</string>
+
+    <string-array name="baud_rate">
+        <item>9600</item>
+        <item>19200</item>
+        <item>115200</item>
+    </string-array>
+
+</resources>

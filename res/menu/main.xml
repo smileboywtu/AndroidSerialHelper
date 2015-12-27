@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lthelper.MainActivity" >
+
+    <item
+        android:id="@+id/baudrate_action"
+        android:actionLayout="@layout/baudrate_action"
+        android:showAsAction="ifRoom"
+        android:title="@string/baudrate_action"/>
+    <item
+        android:id="@+id/open_action"
+        android:icon="@drawable/ic_menu_open"
+        android:showAsAction="always"
+        android:title="@string/open_action"/>
+    <item
+        android:id="@+id/camera_action"
+        android:icon="@drawable/ic_menu_camera"
+        android:showAsAction="always"
+        android:title="@string/camera_action"/>
+    <item
+        android:id="@+id/status_action"
+        android:showAsAction="never"
+        android:title="@string/status_action"/>
+    <item
+        android:id="@+id/clear_action"
+        android:showAsAction="never"
+        android:title="@string/clear_action"/>
+    <item
+        android:id="@+id/serial_action"
+        android:showAsAction="never"
+        android:title="@string/serial_action"/>
+    <item
+        android:id="@+id/fountain_action"
+        android:showAsAction="never"
+        android:title="@string/fountain_action"/>
+
+</menu>
